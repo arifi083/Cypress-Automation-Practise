@@ -20,7 +20,7 @@ describe('Hadling Frames', () => {
     it.skip('Using iframe plugin', () => {
       
         cy.visit("https://the-internet.herokuapp.com/iframe")
-        cy.frameLoaded('#mce_0_ifr')
+        cy.frameLoaded('#mce_0_ifr') 
         cy.iframe('#mce_0_ifr').clear().type('Welcome {ctrl+a}')
         cy.get("[aria-label='Bold']").click();
     })

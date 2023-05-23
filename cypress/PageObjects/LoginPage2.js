@@ -8,7 +8,7 @@ class Login2
 
     setUserName(username)
     {
-        cy.get(this.txtUserName).type(username);
+        cy.get(this.txtUserName).type(username); 
     }
 
     setPassword(password)

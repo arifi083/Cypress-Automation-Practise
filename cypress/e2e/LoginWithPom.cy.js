@@ -28,7 +28,7 @@ describe('POM', () => {
 
     it.skip('Logintest With POM Another Process', () => {
       
-        cy.visit("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+        cy.visit("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login") 
 
         const ln2 = new Login2();
         ln2.setUserName("Admin")

@@ -2,7 +2,7 @@ class Login
 {
     setUserName(username)
     {
-        cy.get("input[placeholder='Username']").type(username);
+        cy.get("input[placeholder='Username']").type(username); 
     }
 
     setPassword(password)
